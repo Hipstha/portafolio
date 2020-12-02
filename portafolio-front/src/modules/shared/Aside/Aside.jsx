@@ -43,7 +43,7 @@ class Aside extends Component {
 
                     <div className="aside-menu-options">
 
-                      <div className="aside-menu-option">
+                      <div className="aside-menu-option menu-option-active">
                         <div className="aside-menu-icon">
                           <i className="fas fa-house-user"></i>
                         </div>
@@ -54,7 +54,7 @@ class Aside extends Component {
                       
                       <div className="aside-menu-option">
                         <div className="aside-menu-icon">
-                          <i class="fas fa-briefcase"></i>
+                          <i className="fas fa-briefcase"></i>
                         </div>
                         <div className="option-menu-text">
                           <p>CV</p>
@@ -62,7 +62,7 @@ class Aside extends Component {
                       </div>
                       <div className="aside-menu-option">
                         <div className="aside-menu-icon">
-                          <i class="fas fa-laptop-code"></i>
+                          <i className="fas fa-laptop-code"></i>
                         </div>
                         <div className="option-menu-text">
                           <p>Proyectos</p>
@@ -70,7 +70,7 @@ class Aside extends Component {
                       </div>
                       <div className="aside-menu-option">
                         <div className="aside-menu-icon">
-                          <i class="fas fa-info"></i>
+                          <i className="fas fa-info"></i>
                         </div>
                         <div className="option-menu-text">
                           <p>Sobre mi</p>
@@ -78,7 +78,7 @@ class Aside extends Component {
                       </div>
                       <div className="aside-menu-option">
                         <div className="aside-menu-icon">
-                          <i class="fas fa-user-tie"></i>
+                          <i className="fas fa-user-tie"></i>
                         </div>
                         <div className="option-menu-text">
                           <p>Mi vida profesional</p>
@@ -86,7 +86,7 @@ class Aside extends Component {
                       </div>
                       <div className="aside-menu-option">
                         <div className="aside-menu-icon">
-                          <i class="fas fa-smile"></i>
+                          <i className="fas fa-smile"></i>
                         </div>
                         <div className="option-menu-text">
                           <p>Mi historia</p>
@@ -94,7 +94,7 @@ class Aside extends Component {
                       </div>
                       <div className="aside-menu-option">
                         <div className="aside-menu-icon">
-                          <i class="fas fa-envelope"></i>
+                          <i className="fas fa-envelope"></i>
                         </div>
                         <div className="option-menu-text">
                           <p>Contácto</p>

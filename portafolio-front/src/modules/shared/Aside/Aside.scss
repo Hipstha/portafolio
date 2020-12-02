@@ -59,6 +59,9 @@ aside {
           }
 
           .aside-menu-options {
+            .menu-option-active {
+              background-color: $base-bg;
+            }
             .aside-menu-option {
               display: flex;
               align-items: center;
