@@ -1,37 +1,68 @@
 @import '../../../scss/variables/variables.scss';
 
-.summary-card {
-  padding: 0 12px;
-  min-width: 200px;
-  .green-success {
-    color: $green-success;
-  }
-  .summary-card-content {
-    background-color: $high-bg;
-    border-radius: 10px;
-    padding: 2rem 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    .summary-card-data {
-      .summary-card-number {
-        font-size: 3rem;
-        margin-bottom: 0.5rem;
-        p {
-          margin: 0
+.card-black {
+  background-color: $high-bg;
+  min-width: 15rem;
+  margin: 15px;
+  .card-body {
+    .row {
+      .col {
+        .green-success {
+          color: $green-success;
         }
-      }
-      .summary-card-title {
-        color: $soft-over-black;
-        p {
-          margin: 0
+        .card-black-number {
+          p {
+            margin: 0;
+            font-size: 50px;
+          }
         }
-      }
-    }
-    .summary-card-icon {
-      .summary-card-icon-content {
-        font-size: 3rem;
+        .card-black-icon {
+          font-size: 50px;
+        }
+        .card-black-title {
+          color: $soft-over-black;
+          font-size: 17px;
+          p {
+            margin: 0;
+          }
+        }
       }
     }
   }
 }
+
+// .summary-card {
+//   padding: 0 12px;
+//   min-width: 200px;
+//   .green-success {
+//     color: $green-success;
+//   }
+//   .summary-card-content {
+//     background-color: $high-bg;
+//     border-radius: 10px;
+//     padding: 2rem 1rem;
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-around;
+//     .summary-card-data {
+//       .summary-card-number {
+//         font-size: 3rem;
+//         margin-bottom: 0.5rem;
+//         p {
+//           margin: 0
+//         }
+//       }
+//       .summary-card-title {
+//         color: $soft-over-black;
+//         p {
+//           margin: 0
+//         }
+//       }
+//     }
+//     .summary-card-icon {
+//       .summary-card-icon-content {
+//         font-size: 3rem;
+//       }
+//     }
+//   }
+// }

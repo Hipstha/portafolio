@@ -23,23 +23,46 @@ class SummaryCard extends Component {
   render() {
     const { number, title, icon } = this.getProps();
     return (
-      <div className="summary-card">
-        <div className="summary-card-content">
-          <div className="summary-card-data">
-            <div className="summary-card-number green-success">
-              <p>{ number }</p>
+      <div className="col card card-black">
+        <div className="card-body">
+          <div className="row">
+            <div className="col">
+              <div className="green-success card-black-number">
+                <p>{ number }</p>
+              </div>
             </div>
-            <div className="summary-card-title">
-              <p>{ title }</p>
+            <div className="col">
+              <div className="green-success card-black-icon">
+                <i className={ icon }></i>
+              </div>
             </div>
           </div>
-          <div className="summary-card-icon">
-            <div className="summary-card-icon-content green-success">
-              <i className={ icon }></i>
+          <div className="row">
+            <div className="col">
+              <div className="card-black-title">
+                <p>{ title }</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      // <div className="summary-card">
+      //   <div className="summary-card-content">
+      //     <div className="summary-card-data">
+      //       <div className="summary-card-number green-success">
+      //         <p>{ number }</p>
+      //       </div>
+      //       <div className="summary-card-title">
+      //         <p>{ title }</p>
+      //       </div>
+      //     </div>
+      //     <div className="summary-card-icon">
+      //       <div className="summary-card-icon-content green-success">
+      //         <i className={ icon }></i>
+      //       </div>
+      //     </div>
+      //   </div>
+      // </div>
     );
   };
 };

@@ -8,7 +8,7 @@ aside {
   .aside-content {
     padding: 0 1rem;
     .aside-header {
-      padding: 1rem 0rem;
+      padding: 2rem 0rem;
       .aside-header-content{
 
         .aside-user {
@@ -47,6 +47,11 @@ aside {
       }
 
     }
+    .aside-separator {
+      hr{
+        border-top: 1px solid $white-default;
+      }
+    }
 
     .aside-body {
       .aside-body-content {
@@ -54,7 +59,9 @@ aside {
         .aside-menu {
           .aside-menu-title {
             h3 {
+              font-size: 25px;
               color: $soft-over-black;
+              margin-bottom: 1rem;
             }
           }
 
