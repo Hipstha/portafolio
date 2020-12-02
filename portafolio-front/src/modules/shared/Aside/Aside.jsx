@@ -5,7 +5,7 @@ class Aside extends Component {
   render() {
     return (
       <>
-        <aside>
+        <aside className="animate__animated animate__fadeIn">
           <div className="aside-content">
             <div className="aside-header">
               <div className="aside-header-content">

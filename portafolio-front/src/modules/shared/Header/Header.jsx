@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return ( 
       <>
-        <header>
+        <header className="animate__animated animate__fadeIn">
           <nav>
             <div className="header-container">
               <div className="header-left">

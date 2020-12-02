@@ -4,7 +4,6 @@ import React, { Component } from 'react';
 //  Shared modules
 import Header from './modules/shared/Header/Header';
 import Aside from './modules/shared/Aside/Aside';
-import Footer from './modules/shared/Footer/Footer';
 
 import './App.scss';
 
@@ -14,8 +13,10 @@ class App extends Component {
       <>
         <Header />
         <Aside />
-        <h1>Hola mundo</h1>
-        <Footer />
+        <div className="rendering-zone">
+          <h1>Hola mundo</h1>
+
+        </div>
       </>
     );
   };
