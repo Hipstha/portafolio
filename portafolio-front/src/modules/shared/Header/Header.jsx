@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 import './Header.scss';
 
 class Header extends Component {
+
+  
+
   render() {
     return ( 
       <>
@@ -10,7 +15,9 @@ class Header extends Component {
             <div className="header-container">
               <div className="header-left">
                 <div className="title">
-                  <h1>Portafolio</h1>
+                  <Link to="/home">
+                    <h1>Portafolio</h1>
+                  </Link>
                 </div>
                 <div className="burger">
                   <div className="burger-container">
@@ -59,7 +66,9 @@ class Header extends Component {
                   </div>
                 </div>
                 <div className="header-contact">
-                  <i className="fas fa-envelope"></i>
+                  <Link to="contact">
+                    <i className="fas fa-envelope"></i>
+                  </Link>
                 </div>
                 <div className="header-me">
                   <div className="header-image">

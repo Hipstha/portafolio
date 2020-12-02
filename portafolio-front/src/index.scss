@@ -1,6 +1,8 @@
 @import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
 @import "../node_modules//animate.css/animate.min.css";
 
+@import './scss/components/card.scss';
+@import './scss/components/width.scss';
 @import './scss/variables/variables.scss';
 
 body {
@@ -15,3 +17,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+

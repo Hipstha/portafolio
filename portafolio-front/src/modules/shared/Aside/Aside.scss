@@ -69,6 +69,8 @@ aside {
               cursor: pointer;
               margin-bottom: 10px;
               transition: 0.3s;
+              color: $white-default;
+              text-decoration: none;
               &:hover {
                 background-color: $base-bg;
               }

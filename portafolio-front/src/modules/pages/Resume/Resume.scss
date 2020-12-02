@@ -1,0 +1,23 @@
+.resume-page {
+  .summary-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    article {
+      width: 25%;
+    }
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1145px) {
+  .resume-page {
+    .summary-cards{
+      article {
+        padding: 0 12px;
+        margin-bottom: 25px;
+        width: 200px;
+      }
+    }
+  }
+}

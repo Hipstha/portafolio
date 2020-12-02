@@ -13,10 +13,14 @@ header{
         display: flex;
         .title {
           width: $asaide-extended;
-          h1 {
-            display: flex;
-            justify-content: center;
-            font-weight: 100;
+          a {
+            color: $white-default;
+            text-decoration: none;
+            h1 {
+              display: flex;
+              justify-content: center;
+              font-weight: 100;
+            }
           }
         }
         .burger {
@@ -136,8 +140,11 @@ header{
           display: flex;
           align-items: center;
           cursor: pointer;
-          i {
-            font-size: 1.5rem;
+          a {
+            color: $white-default;
+            i {
+              font-size: 1.5rem;
+            }
           }
         }
         .header-me {

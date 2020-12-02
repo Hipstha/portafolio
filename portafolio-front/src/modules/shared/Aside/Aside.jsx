@@ -1,8 +1,73 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 import './Aside.scss';
 
 class Aside extends Component {
+
+  menuOptionsArray = [];
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      activeLink: 'Home'
+    }
+  }
+
+  setMenuOptions(menuOptions) {
+    this.menuOptionsArray = menuOptions;
+  }
+
+  getMenuOptions () {
+    return this.menuOptionsArray;
+  }
+
   render() {
+    this.setMenuOptions([
+      {
+        id: 1,
+        title: 'Home',
+        path: '/home',
+        icon: 'fas fa-house-user'
+      },
+      {
+        id: 2,
+        title: 'CV',
+        path: '/cv',
+        icon: 'fas fa-briefcase'
+      },
+      {
+        id: 3,
+        title: 'Proyectos',
+        path: '/projects',
+        icon: 'fas fa-laptop-code'
+      },
+      {
+        id: 4,
+        title: 'Sobre mi',
+        path: '/about-me',
+        icon: 'fas fa-info'
+      },
+      {
+        id: 5,
+        title: 'Mi vida profesional',
+        path: '/professional-life',
+        icon: 'fas fa-user-tie'
+      },
+      {
+        id: 6,
+        title: 'Mi historia',
+        path: '/my-history',
+        icon: 'fas fa-smile'
+      },
+      {
+        id: 7,
+        title: 'Contácto',
+        path: '/contact',
+        icon: 'fas fa-envelope'
+      },
+    ]);
+
     return (
       <>
         <aside className="animate__animated animate__fadeIn">
@@ -43,63 +108,20 @@ class Aside extends Component {
 
                     <div className="aside-menu-options">
 
-                      <div className="aside-menu-option menu-option-active">
-                        <div className="aside-menu-icon">
-                          <i className="fas fa-house-user"></i>
-                        </div>
-                        <div className="option-menu-text">
-                          <p>Home</p>
-                        </div>
-                      </div>
-                      
-                      <div className="aside-menu-option">
-                        <div className="aside-menu-icon">
-                          <i className="fas fa-briefcase"></i>
-                        </div>
-                        <div className="option-menu-text">
-                          <p>CV</p>
-                        </div>
-                      </div>
-                      <div className="aside-menu-option">
-                        <div className="aside-menu-icon">
-                          <i className="fas fa-laptop-code"></i>
-                        </div>
-                        <div className="option-menu-text">
-                          <p>Proyectos</p>
-                        </div>
-                      </div>
-                      <div className="aside-menu-option">
-                        <div className="aside-menu-icon">
-                          <i className="fas fa-info"></i>
-                        </div>
-                        <div className="option-menu-text">
-                          <p>Sobre mi</p>
-                        </div>
-                      </div>
-                      <div className="aside-menu-option">
-                        <div className="aside-menu-icon">
-                          <i className="fas fa-user-tie"></i>
-                        </div>
-                        <div className="option-menu-text">
-                          <p>Mi vida profesional</p>
-                        </div>
-                      </div>
-                      <div className="aside-menu-option">
-                        <div className="aside-menu-icon">
-                          <i className="fas fa-smile"></i>
-                        </div>
-                        <div className="option-menu-text">
-                          <p>Mi historia</p>
-                        </div>
-                      </div>
-                      <div className="aside-menu-option">
-                        <div className="aside-menu-icon">
-                          <i className="fas fa-envelope"></i>
-                        </div>
-                        <div className="option-menu-text">
-                          <p>Contácto</p>
-                        </div>
-                      </div>
+                    {
+                        this.getMenuOptions().map( option => (
+                          <Link to={ option.path }
+                            key={ option.id }
+                            className="aside-menu-option">
+                            <div className="aside-menu-icon">
+                              <i className={ option.icon }></i>
+                            </div>
+                            <div className="option-menu-text">
+                              <p>{ option.title }</p>
+                            </div>
+                          </Link>
+                        ))
+                      }  
                     </div>
                   </div>
 
