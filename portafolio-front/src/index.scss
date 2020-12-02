@@ -1,0 +1,16 @@
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+
+@import './scss/variables/variables.scss';
+
+body {
+  margin: 0;
+  font-family: $lato;
+  font-style: normal;
+  background-color: $base-bg;
+  color: $white-default;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
