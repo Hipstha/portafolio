@@ -38,9 +38,9 @@ class Aside extends Component {
       },
       {
         id: 3,
-        title: 'Proyectos',
+        title: 'Cursos',
         path: '/projects',
-        icon: 'fas fa-laptop-code'
+        icon: 'fab fa-leanpub'
       },
       {
         id: 4,

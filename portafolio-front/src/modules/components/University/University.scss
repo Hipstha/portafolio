@@ -1,0 +1,76 @@
+.university-content {
+  .university-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -5rem;
+    min-height: 5rem;
+    .logo-uanl {
+      width: 6rem;
+      img {
+        width: 100%;
+        object-fit: cover;
+        height: auto;
+      }
+    }
+    .logo-fime {
+      width: 6rem;
+      img {
+        width: 100%;
+        object-fit: cover;
+        height: auto;
+      }
+    }
+  }
+  .univesity-title {
+    text-align: center;
+    // width: 26rem;
+    margin: auto;
+    min-width: 15rem;
+    h2 {
+
+    }
+  }
+  .school-title {
+    text-align: center;
+    min-width: 15rem;
+    margin: auto;
+    h3 {
+
+    }
+  }
+  .separator {
+    hr {
+      border: 1px solid white;
+    }
+  }
+  .relevant-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .career {
+      text-align: center;
+      h4 {
+        font-size: 2rem;
+      }
+    }
+    .data-career {
+      p {
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1100px) {
+  .university-content {
+    .university-logos {
+      .logo-uanl {
+        display: none;
+      }
+      .logo-fime {
+        display: none;
+      }
+    }
+  }
+} 

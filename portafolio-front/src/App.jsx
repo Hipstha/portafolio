@@ -13,7 +13,7 @@ import Contact from './modules/pages/Contact/Contact';
 import CV from './modules/pages/CV/CV';
 import ProfessionalLife from './modules/pages/ProfessionalLife/ProfessionalLife';
 import History from './modules/pages/History/History';
-import Projects from './modules/pages/Projects/Projects';
+import Courses from './modules/pages/Courses/Courses';
 
 // Styles
 import './App.scss';
@@ -34,7 +34,7 @@ class App extends Component {
               {/* PAGES NAVIGATION */}
               <Route path="/home" component={ Resume } />
               <Route path="/cv" component={ CV } />
-              <Route path="/projects" component={ Projects } />
+              <Route path="/projects" component={ Courses } />
               <Route path="/about-me" component={ About } />
               <Route path="/professional-life" component={ ProfessionalLife } />
               <Route path="/my-history" component={ History } />

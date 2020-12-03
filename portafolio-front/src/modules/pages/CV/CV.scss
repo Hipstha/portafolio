@@ -1,0 +1,30 @@
+.cv-page {
+  .row {
+    .col {
+      padding: 0;
+      margin-bottom: 30px;
+      .favorite {
+        .favorite-img-container {
+          .favorite-img {
+            width: 18rem;
+            margin: 2.4rem auto;
+            img {
+              width: 100%;
+              height: auto;
+              object-fit: dover;
+            }
+          }
+        }
+      }
+    }
+    .university {
+      margin-bottom: 0;
+    }
+
+    .profesional-history {
+      margin-top: 15px;
+    }
+
+
+  }
+}

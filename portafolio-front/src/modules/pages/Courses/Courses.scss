@@ -1,0 +1,22 @@
+.courses-page {
+  .card-columns {
+    .card {
+      .card-header {
+        h3 {
+
+        }
+      }
+      .card-body {
+        padding: 0px;
+        .course-img {
+          width: 100%;
+          img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}

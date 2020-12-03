@@ -1,0 +1,81 @@
+@import '../../../scss/variables/variables.scss';
+
+.job {
+  margin-bottom: 2rem;
+  .job-content {
+    .job-header {
+      margin-bottom: 1.4rem;
+      .job-title {
+        h3 {
+          margin: 0;
+        }
+        h4 {
+          margin: 0;
+        }
+        .dates {
+          display: flex;
+          align-items: center;
+          .date-start {
+            p {
+              margin: 0;
+            }
+          }
+          .separator {
+            margin: 0px 15px;
+            p {
+              margin: 0;
+            }
+          }
+          .date-end {
+            p {
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+
+    .job-body {
+      .tools {
+        .tools-title {
+          h5 {
+
+          }
+        }
+        .tools-list {
+          ul {
+            li {
+              strong {
+
+              }
+              small {
+
+              }
+            }
+          }
+        }
+      }
+      .main-responsabilities {
+        .responsabilities-title {
+          h5 {
+
+          }
+        }
+        .responsabilities-list {
+          ul {
+            li {
+              strong {
+
+              }
+            }
+          }
+        }
+      }
+    }
+    .separator {
+      hr {
+        border-top: 1px solid $white-default;
+      }
+    }
+  }
+}
