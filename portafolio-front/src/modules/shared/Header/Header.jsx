@@ -8,6 +8,7 @@ class Header extends Component {
   
 
   render() {
+    const linkedin = 'https://www.linkedin.com/in/daniel-alejandro-cruz-p%C3%A9rez-5787b9127';
     return ( 
       <>
         <header className="animate__animated animate__fadeIn">
@@ -66,9 +67,9 @@ class Header extends Component {
                   </div>
                 </div>
                 <div className="header-contact">
-                  <Link to="contact">
-                    <i className="fas fa-envelope"></i>
-                  </Link>
+                  <a href={ linkedin } target="_blank" rel="noreferrer">
+                    <i className="fab fa-linkedin" style={{color: '#2766C2'}}></i>
+                  </a>
                 </div>
                 <div className="header-me">
                   <div className="header-image">

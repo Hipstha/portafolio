@@ -62,9 +62,9 @@ class Aside extends Component {
       },
       {
         id: 7,
-        title: 'Contácto',
-        path: '/contact',
-        icon: 'fas fa-envelope'
+        title: 'LinkedIn',
+        path: 'https://www.linkedin.com/in/daniel-alejandro-cruz-p%C3%A9rez-5787b9127',
+        icon: 'fab fa-linkedin'
       },
     ]);
 
@@ -110,16 +110,29 @@ class Aside extends Component {
 
                     {
                         this.getMenuOptions().map( option => (
-                          <Link to={ option.path }
-                            key={ option.id }
-                            className="aside-menu-option">
-                            <div className="aside-menu-icon">
-                              <i className={ option.icon }></i>
-                            </div>
-                            <div className="option-menu-text">
-                              <p>{ option.title }</p>
-                            </div>
-                          </Link>
+                          option.title !== 'LinkedIn' ? (
+                            <Link to={ option.path }
+                              key={ option.id }
+                              className="aside-menu-option">
+                              <div className="aside-menu-icon">
+                                <i className={ option.icon }></i>
+                              </div>
+                              <div className="option-menu-text">
+                                <p>{ option.title }</p>
+                              </div>
+                            </Link>
+                          ) : (
+                            <a href={option.path} target="_blank" rel="noreferrer"
+                              key={ option.id }
+                              className="aside-menu-option" style={{color: '#2766C2'}}>
+                              <div className="aside-menu-icon" >
+                                <i className={ option.icon }></i>
+                              </div>
+                              <div className="option-menu-text">
+                                <p>{ option.title }</p>
+                              </div>
+                            </a>
+                          )
                         ))
                       }  
                     </div>
