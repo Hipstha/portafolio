@@ -1,0 +1,27 @@
+@import '../../../scss/variables/variables.scss';
+
+.progress-general-skills {
+  margin-bottom: 0.2rem;
+  .progress-title-head {
+    align-items: center;
+    height: 3.3rem;
+    .progress-general-title {
+      text-align: center;
+      h4 {
+        font-family: $lato-light;
+        font-size: 20px;
+      }
+    }
+    .progress-general-icon {
+      text-align: center;
+      font-size: 40px;
+    }
+  }
+  .progress {
+    height: 12px;
+    .progress-bar {
+      background-color: rgb(239, 216, 29);
+      text-shadow: 0px 0px 4px black;
+    }
+  }
+}

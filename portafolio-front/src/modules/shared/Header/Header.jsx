@@ -27,7 +27,7 @@ class Header extends Component {
               </div>
 
               <div className="header-right">
-                {/* <div className="header-lenguaje">
+                <div className="header-lenguaje">
                   <div className="header-lenguaje-content">
                     <div className="header-lenguaje-icon">
                       <img src="mexican-flag.png" alt="mexican-flag"/>
@@ -64,7 +64,7 @@ class Header extends Component {
                       </div>
                     </div>
                   </div>
-                </div> */}
+                </div>
                 <div className="header-contact">
                   <Link to="contact">
                     <i className="fas fa-envelope"></i>

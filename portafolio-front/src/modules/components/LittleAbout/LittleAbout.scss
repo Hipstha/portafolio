@@ -1,0 +1,35 @@
+@import '../../../scss/variables/variables.scss';
+
+
+.little-about{
+  .little-about-content {
+    .little-about-body {
+      .little-about-text {
+        text-align: justify;
+        font-size: 17px;
+        p {
+
+        }
+      }
+    }
+    .little-about-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin: 20px 0px;
+      .footer-name {
+        h4 {
+          font-size: 30px;
+          font-family: $lato-light;
+        }
+      }
+      .footer-sign {
+        width: 6rem;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

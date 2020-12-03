@@ -5,6 +5,7 @@ aside {
   height: 100%;
   position: fixed;
   width: 15rem;
+  top: 64px;
   .aside-content {
     padding: 0 1rem;
     .aside-header {
@@ -37,6 +38,7 @@ aside {
             .aside-data {
               color: $soft-over-black;
               font-size: 12px;
+              font-weight: bold;
               p {
                 margin: 0;
               }
