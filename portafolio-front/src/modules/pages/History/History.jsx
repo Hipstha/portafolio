@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import TitlePage from '../../components/TitlePage/TitlePage';
 
+import './History.scss';
+
 // classes
 import TitleNames from '../../../Classes/titleNames';
 
@@ -11,7 +13,7 @@ class History extends Component {
   render() {
     this.title.setTitleName('Mi historia');
     return (
-      <div className="resume-page animate__animated animate__fadeIn">
+      <div className="history-page animate__animated animate__fadeIn">
         <TitlePage titlePage={ this.title.getTitleName() } />
 
         <div className="card card-black">

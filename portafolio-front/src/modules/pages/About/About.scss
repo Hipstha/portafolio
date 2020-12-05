@@ -76,3 +76,81 @@
     }
   }
 }
+
+@media screen and (min-width: 0px) and (max-width: 990px) {
+  .about-page {
+    .card-black {
+
+      .card-body {
+        .about-info {
+          flex-wrap: wrap;
+          justify-content: center;
+          .about-person {
+            width: 100%;
+            .about-image {
+
+              .image-content {
+
+                img {
+
+                }
+              }
+            }
+          }
+  
+          .about-data {
+            .about-name {
+              h3 {
+  
+              }
+            }
+            .position-age {
+
+              .about-position {
+                h4 {
+  
+                }
+              }
+              .about-age {
+                h4 {
+  
+                }
+              }
+            }
+            .about-study {
+              h5 {
+  
+              }
+            }
+          }
+  
+          .about-hobbies {
+            width: 100%;
+            padding: 0;
+            .personal-skills {
+              margin: 2rem 0;
+              .personal-skills-title {
+                h2 {
+  
+                }
+              }
+              .personal-skills-data {
+                .personal-skill {
+  
+                }
+              }
+            }
+            .about-my-hobbies {
+              .personal-hobies-title {
+                h2 {
+
+                }
+              }
+            }
+          }
+  
+        }
+      }
+    }
+  }
+}

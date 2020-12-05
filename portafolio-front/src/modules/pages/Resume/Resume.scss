@@ -19,5 +19,27 @@
   }
 }
 
+@media screen and (min-width: 0px) and (max-width: 980px) {
+  .second-row {
+
+    .col-6 {
+      flex: unset;
+      max-width: unset;
+      .card {
+
+      }
+      .skills-about {
+
+        .card-header {
+          h3 {
+
+          }
+        }
+      }
+    }
+  }
+  
+}
+
 
 

@@ -74,3 +74,33 @@
     }
   }
 } 
+
+@media screen and (min-width: 0px) and (max-width: 965px) {
+  .university-content {
+    .university-logos {
+      .logo-uanl {
+        display: none;
+      }
+      .logo-fime {
+        display: none;
+      }
+    }
+    .univeristy-title {
+      h2 {
+        font-size: 24px;
+      }
+    }
+    .school-title{
+      h3 {
+        font-size: 22px;
+      }
+    }
+    .relevant-data {
+      .career {
+        h4 {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+} 

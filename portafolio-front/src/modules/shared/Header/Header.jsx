@@ -17,14 +17,14 @@ class Header extends Component {
               <div className="header-left">
                 <div className="title">
                   <Link to="/home">
-                    <h1>Portafolio</h1>
+                    <h1>ACP-DEV</h1>
                   </Link>
                 </div>
-                <div className="burger">
+                {/* <div className="burger">
                   <div className="burger-container">
                     <i className="fas fa-bars"></i>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               <div className="header-right">
@@ -33,7 +33,7 @@ class Header extends Component {
                     <div className="header-lenguaje-icon">
                       <img src="mexican-flag.png" alt="mexican-flag"/>
                     </div>
-                    <div className="header-lenguaje-options">
+                    {/* <div className="header-lenguaje-options">
                       <div className="lenguaje-options-container">
                         <div className="header-lenguaje-header">
                           <h4>Seleccione su idioma</h4>
@@ -63,7 +63,7 @@ class Header extends Component {
 
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="header-contact">

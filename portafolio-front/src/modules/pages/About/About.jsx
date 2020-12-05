@@ -70,7 +70,7 @@ class About extends Component {
     },
     {
       id: 3,
-      text: 'Peliculas / series / documentales',
+      text: 'Documentales',
       percentage: "90%",
       icon: {
         icon: 'fas fa-film',

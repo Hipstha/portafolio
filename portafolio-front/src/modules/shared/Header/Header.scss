@@ -193,3 +193,239 @@ header{
     }
   }
 }
+
+@media screen and (min-width: 0px) and (max-width: 580px) {
+  header{
+
+  
+    nav{
+
+      .header-container {
+
+        .header-left {
+
+          .title {
+            width: 100%;
+            a {
+              h1 {
+
+              }
+            }
+          }
+          .burger {
+
+            .burger-container{
+
+              &:hover {
+
+              }
+              i {
+
+              }
+            }
+          }
+        }
+        .header-right {
+
+          .header-lenguaje {
+              display: none;
+            
+              &:hover {
+                .header-lenguaje-content {
+                  
+                  .header-lenguaje-options {
+
+                  }
+                }
+              }
+            
+            .header-lenguaje-content {
+
+              .header-lenguaje-icon {
+
+                img{
+
+                }
+              }
+  
+              
+  
+              .header-lenguaje-options {
+                // padding: 10px;
+
+                
+                // display: none;
+                .lenguaje-options-container {
+                  .header-lenguaje-header {
+                    h4{
+
+                    }
+                  }
+                  .lenguaje-separator {
+
+                    hr {
+
+                    }
+                  }
+                  .lenguaje-options-container {
+                    .lenguaje-option {
+
+                      &:hover {
+
+                      }
+                      .lenguaje-flag {
+
+                        img {
+
+                        }
+                      }
+                      .lenguaje-title {
+                        p {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+  
+            }
+          }
+          .header-contact {
+            a {
+              i {
+              }
+            }
+          }
+          .header-me {
+            .header-image {
+              img {
+              }
+            }
+            .header-name {
+              p{
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 430px) {
+  header{
+
+  
+    nav{
+
+      .header-container {
+
+        .header-left {
+
+          .title {
+            width: 100%; 
+            a {
+              h1 {
+                font-size: 20px;
+              }
+            }
+          }
+          .burger {
+
+            .burger-container{
+
+              &:hover {
+
+              }
+              i {
+
+              }
+            }
+          }
+        }
+        .header-right {
+          width: 14rem;
+          .header-lenguaje {
+              display: none;
+            
+              &:hover {
+                .header-lenguaje-content {
+                  
+                  .header-lenguaje-options {
+
+                  }
+                }
+              }
+            
+            .header-lenguaje-content {
+
+              .header-lenguaje-icon {
+
+                img{
+
+                }
+              }
+  
+              
+  
+              .header-lenguaje-options {
+                // padding: 10px;
+
+                
+                // display: none;
+                .lenguaje-options-container {
+                  .header-lenguaje-header {
+                    h4{
+
+                    }
+                  }
+                  .lenguaje-separator {
+
+                    hr {
+
+                    }
+                  }
+                  .lenguaje-options-container {
+                    .lenguaje-option {
+
+                      &:hover {
+
+                      }
+                      .lenguaje-flag {
+
+                        img {
+
+                        }
+                      }
+                      .lenguaje-title {
+                        p {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+  
+            }
+          }
+          .header-contact {
+            a {
+              i {
+              }
+            }
+          }
+          .header-me {
+            .header-image {
+              img {
+              }
+            }
+            .header-name {
+              p{
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

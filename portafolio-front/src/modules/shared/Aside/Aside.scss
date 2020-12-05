@@ -107,3 +107,88 @@ aside {
 
   }
 }
+
+@media screen and (min-width: 0px) and (max-width: 745px) {
+
+  aside {
+    width: 5rem;
+    .aside-content {
+      padding: 0 5px;
+      .aside-header {
+
+        .aside-header-content{
+  
+          .aside-user {
+
+            .aside-user-img {
+              display: none;
+              img {
+
+              }
+            }
+            .aside-info {
+
+              .aside-name {
+
+                p {
+
+                }
+              }
+              .aside-data {
+
+                p {
+
+                }
+              }
+            }
+          }
+          
+        }
+  
+      }
+      .aside-separator {
+        hr{
+
+        }
+      }
+  
+      .aside-body {
+        .aside-body-content {
+  
+          .aside-menu {
+            .aside-menu-title {
+              display: none;
+              h3 {
+              }
+            }
+  
+            .aside-menu-options {
+              .menu-option-active {
+
+              }
+              .aside-menu-option {
+                justify-content: center;
+                &:hover {
+
+                }
+                .aside-menu-icon {
+
+                  i {
+  
+                  }
+                }
+                .option-menu-text {
+                  display: none;
+                  p {
+                  }
+                }
+              }
+            }
+          }
+  
+        }
+      }
+  
+    }
+  }
+}
