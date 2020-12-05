@@ -50,18 +50,12 @@ class Aside extends Component {
       },
       {
         id: 5,
-        title: 'Mi vida profesional',
-        path: '/professional-life',
-        icon: 'fas fa-user-tie'
-      },
-      {
-        id: 6,
         title: 'Mi historia',
         path: '/my-history',
         icon: 'fas fa-smile'
       },
       {
-        id: 7,
+        id: 6,
         title: 'LinkedIn',
         path: 'https://www.linkedin.com/in/daniel-alejandro-cruz-p%C3%A9rez-5787b9127',
         icon: 'fab fa-linkedin'

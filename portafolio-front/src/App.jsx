@@ -10,7 +10,6 @@ import Aside from './modules/shared/Aside/Aside';
 import Resume from './modules/pages/Resume/Resume';
 import About from './modules/pages/About/About';
 import CV from './modules/pages/CV/CV';
-import ProfessionalLife from './modules/pages/ProfessionalLife/ProfessionalLife';
 import History from './modules/pages/History/History';
 import Courses from './modules/pages/Courses/Courses';
 
@@ -35,7 +34,6 @@ class App extends Component {
               <Route path="/cv" component={ CV } />
               <Route path="/projects" component={ Courses } />
               <Route path="/about-me" component={ About } />
-              <Route path="/professional-life" component={ ProfessionalLife } />
               <Route path="/my-history" component={ History } />
             </Switch>
 

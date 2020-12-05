@@ -1,0 +1,78 @@
+.about-page {
+  .card-black {
+    margin: 0;
+    .card-body {
+      .about-info {
+        display: flex;
+        .about-person {
+          width: 21rem;
+          .about-image {
+            margin-bottom: 1rem;
+            .image-content {
+              width: 100%;
+              img {
+                border-radius: 10px;
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+              }
+            }
+          }
+        }
+
+        .about-data {
+          .about-name {
+            h3 {
+
+            }
+          }
+          .position-age {
+            display: flex;
+            justify-content: space-between;
+            .about-position {
+              h4 {
+
+              }
+            }
+            .about-age {
+              h4 {
+
+              }
+            }
+          }
+          .about-study {
+            h5 {
+
+            }
+          }
+        }
+
+        .about-hobbies {
+          padding: 0rem 2rem;
+          width: 65%;
+          .personal-skills {
+            .personal-skills-title {
+              h2 {
+
+              }
+            }
+            .personal-skills-data {
+              .personal-skill {
+
+              }
+            }
+          }
+          .about-my-hobbies {
+            .personal-hobies-title {
+              h2 {
+                margin: 0;
+                margin-top: 1rem;
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
