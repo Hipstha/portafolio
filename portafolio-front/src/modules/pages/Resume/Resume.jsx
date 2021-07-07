@@ -27,13 +27,13 @@ class Resume extends Component {
       [
         {
           id: 1,
-          number: "3+",
+          number: "4+",
           title: 'Años de experiencia',
           icon: 'fas fa-graduation-cap'
         },
         {
           id: 2,
-          number: "3",
+          number: "4",
           title: 'Empresas en las que he trabajado',
           icon: 'far fa-building'
         },
@@ -147,7 +147,7 @@ class Resume extends Component {
         {
           id: 7,
           text: 'C#',
-          percentage: "80%",
+          percentage: "70%",
           icon: {
             icon: 'fas fa-code',
             iconColor: '#652075'
@@ -174,7 +174,7 @@ class Resume extends Component {
         {
           id: 10,
           text: 'Dart / Flutter',
-          percentage: "45%",
+          percentage: "40%",
           icon: {
             icon: 'fas fa-mobile-alt',
             iconColor: '#3BA8E1'

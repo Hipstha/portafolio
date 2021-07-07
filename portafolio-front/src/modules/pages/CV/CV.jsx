@@ -179,9 +179,59 @@ class CV extends Component {
     this.jobData.setJobData([
       {
         id: 1,
-        name: 'MKM SAPI de CV',
-        position: 'Full Stack Developer Jr.',
-        startDate: 'Septiembre 2020',
+        name: 'HOSTER',
+        position: 'Lider de Front End - Freelance',
+        startDate: 'Febrero 2021',
+        endDate: 'Actual',
+        tools: [
+          {
+            id: 1,
+            title: 'React.',
+            summary: 'Desarrollo de Front-End.'
+          },
+          {
+            id: 2,
+            title: 'Css/Sass.',
+            summary: 'Diseño web.'
+          },
+          {
+            id: 3,
+            title: 'Github.',
+            summary: 'Sistema de versionamiento.'
+          }
+        ],
+        responsabilities: [
+          {
+            id: 1,
+            description: 'Administración del desarrollo Front End.' 
+          },
+          {
+            id: 1,
+            description: 'Diseño gráfico.' 
+          },
+          {
+            id: 1,
+            description: 'Desarrollo de componentes funcionales en React.' 
+          },
+          {
+            id: 1,
+            description: 'Consumo de REST API.' 
+          },
+          {
+            id: 1,
+            description: 'Apoyo en la arquitectura y diseño de base de datos.' 
+          },
+          {
+            id: 1,
+            description: 'Administración de repositorios de Git.' 
+          }
+        ]
+      },
+      {
+        id: 1,
+        name: 'MKM Bolsa Privada',
+        position: 'Full Stack Developer Semi Sr.',
+        startDate: 'Agosto 2020',
         endDate: 'Noviembre: 2020',
         tools: [
           {
