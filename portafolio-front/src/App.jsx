@@ -35,6 +35,8 @@ class App extends Component {
               <Route path="/projects" component={ Courses } />
               <Route path="/about-me" component={ About } />
               <Route path="/my-history" component={ History } />
+              <Redirect from='/' to='/home' />
+              <Redirect from='*' to='/home' />
             </Switch>
 
           </div>
